@@ -1,7 +1,92 @@
 famous_people=['thomas payne', 'ghandi', 'kevin rhoades', 'jebediah']
+thomas ='thomas payne'
+ghandi ='ghandi'
+kevin ='kevin rhoades'
+jeb ='jebediah'
+
+print("Hello, " + thomas.title() + ". You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + ghandi.title() + ". You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + kevin.title() + ". You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + jeb.title() + ". You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+print()
+print("It seems " +ghandi.title()+ " will be unable to attend the dinner. He will be missed.")
+del famous_people[1]
+famous_people.insert(1, 'arnold palmer')
+
+arnie = 'arnold palmer'
+print("" + arnie.title() + " will be taking " + ghandi.title() + "'s place.")
 print(famous_people)
 
-war_criminal='ghandi'
-famous_people.remove(war_criminal)
+print()
+
+print("Hello, " + thomas.title() + ". You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + arnie.title() + ". You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + kevin.title() + ". You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + jeb.title() + ". You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+print()
+print("We have found a bigger table! More guests will be invited!")
+famous_people.insert(0, 'dave chappell')
+famous_people.append('luke cage')
+famous_people.insert(3, 'scorpion')
+
+dave='dave chappell'
+luke='luke cage'
+scorpion='scorpion'
+
 print(famous_people)
-print( war_criminal.title() + " is a violent individual.")
+print()
+
+print("Hello, " + thomas.title() + ". Sorry for the revision! You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + arnie.title() + ". Sorry for the revision! You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + kevin.title() + ". Sorry for the revision! You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + jeb.title() + ". Sorry for the revisio! You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + dave.title() + ". Sorry for the revisio! You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + luke.title() + ". Sorry for the revisio! You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print("Hello, " + scorpion.title() + ". Sorry for the revisio! You are invited to a exquisite dinner to be held a week from today. Please RSVP.")
+
+print()
+
+famous_people.pop(2)
+
+print("I'm sorry, "+arnie.title()+ ". We are unfortunately short on space and are unable to accomodate you as a guest. Please accept our deepest apologies for the inconvenience.")
+
+famous_people.pop(3)
+
+print("I'm sorry, "+kevin.title()+ ". We are unfortunately short on space and are unable to accomodate you as a guest. Please accept our deepest apologies for the inconvenience.")
+
+famous_people.pop(0)
+
+print("I'm sorry, "+dave.title()+ ". We are unfortunately short on space and are unable to accomodate you as a guest. Please accept our deepest apologies for the inconvenience.")
+
+famous_people.pop(0)
+
+print("I'm sorry, "+thomas.title()+ ". We are unfortunately short on space and are unable to accomodate you as a guest. Please accept our deepest apologies for the inconvenience.")
+
+famous_people.pop(1)
+
+print("I'm sorry, "+jeb.title()+ ". We are unfortunately short on space and are unable to accomodate you as a guest. Please accept our deepest apologies for the inconvenience.")
+print()
+print("The remaining attendees are:")
+print(famous_people)
+
+print("Hello, " +scorpion.title()+ ". You are still invited to the fantastic upcoming dinner. Please RSVP.")
+
+print("Hello, " +luke.title()+ ". You are still invited to the fantastic upcoming dinner. Please RSVP.")
+
+del famous_people[0]
+del famous_people[0]
+
+print()
+print(famous_people)
