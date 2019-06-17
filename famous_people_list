@@ -1,0 +1,7 @@
+famous_people=['thomas payne', 'ghandi', 'kevin rhoades', 'jebediah']
+print(famous_people)
+
+war_criminal='ghandi'
+famous_people.remove(war_criminal)
+print(famous_people)
+print( war_criminal.title() + " is a violent individual.")
