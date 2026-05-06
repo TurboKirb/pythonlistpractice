@@ -1,0 +1,5 @@
+list_of_pizzas=['canadian', 'supreme', 'hamburger']
+
+for pizza in list_of_pizzas:
+  print("Some people like "+pizza.title()+", but some don't.")
+print("I really like pizza. You can't go wrong ordering it!")
